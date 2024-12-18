@@ -4,10 +4,11 @@
     "socket.io": "^4.8.1"
   },
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "vercel": "vercel",
+    "deploy": "vercel deploy"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "vercel": "^39.2.2"
   }
 }
