@@ -9,6 +9,9 @@
   "routes": [
     {
       "src": "/(.*)",
+      "headers": {
+        "Content-Security-Policy": "default-src 'self'; script-src 'self' https://vercel.live"
+      },
       "dest": "app.js"
     }
   ]
